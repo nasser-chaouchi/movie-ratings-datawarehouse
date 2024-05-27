@@ -25,5 +25,5 @@ BEGIN
         VALUES (source.genre_name);
 END;
 $BODY$;
-ALTER PROCEDURE public.sp_genre_table()
+ALTER PROCEDURE public.sp_genre_dim_table()
     OWNER TO postgres;
